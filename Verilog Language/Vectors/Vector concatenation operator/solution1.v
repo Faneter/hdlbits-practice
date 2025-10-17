@@ -4,3 +4,5 @@ module top_module (
 );
     assign { w, x, y, z } = { a, b, c, d, e, f, 2'b11 };
 endmodule
+
+// The concatenation operation acts like making what it contains into a vector.
