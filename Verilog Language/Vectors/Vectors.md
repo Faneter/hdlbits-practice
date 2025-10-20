@@ -1,4 +1,4 @@
-# Verilog中的向量（Vector）详解
+# Verilog中的向量（`Vector`）详解
 
 ## 向量的定义
 
@@ -46,3 +46,19 @@ input wire [3:-2] z;  // 6-bit wire input (negative ranges are allowed)
 output [3:0] a;       // 4-bit output wire. Type is 'wire' unless specified otherwise.
 wire [0:7] b;         // 8-bit wire where b[0] is the most-significant bit.
 ```
+
+## 向量的用法
+
+### 赋值
+
+### 部分选择(`part select`)
+
+## 向量与数组的区别
+
+## 按位运算与逻辑运算
+
+## 拼接操作与复制操作
+
+## 用`Vector`解释理解各种操作
+
+
